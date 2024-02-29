@@ -12,7 +12,7 @@ public class tgs1 {
         int option;
         do {
             System.out.println("\n=== Library System ===");
-            System.out.println("1. Login sebagai Student");
+            System.out.println("1. Login sebagai Mahasiswa");
             System.out.println("2. Login sebagai Admin");
             System.out.println("3. keluar");
             System.out.print("pilih (1-3): ");
@@ -26,7 +26,7 @@ public class tgs1 {
                     loginAdmin(scanner);
                     break;
                 case 3:
-                    System.out.println("adios");
+                    System.out.println("Selamat Tinggal");
                     break;
                 default:
                     System.out.println("pilihan tidak valid, tolong pilih antara 1 sampai 3.");
@@ -47,7 +47,7 @@ public class tgs1 {
         if (found) {
             System.out.println("Berhasil login sebagai mahasiswa");
         } else {
-            System.out.println("User tidak ditemukan");
+            System.out.println("NIM tidak ditemukan");
         }
     }
 
